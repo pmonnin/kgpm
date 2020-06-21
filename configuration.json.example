@@ -1,0 +1,36 @@
+{
+  "server-address": "http://pgxlod.loria.fr/sparql",
+  "url-json-conf-attribute": "format",
+  "url-json-conf-value": "application/sparql-results+json",
+  "url-default-graph-attribute": "default-graph-uri",
+  "url-default-graph-value": "http://pgxlod.loria.fr/",
+  "url-query-attribute": "query",
+  "timeout": 10000000,
+  "username": "",
+  "password": "",
+  "path_predicates_blacklist": [
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "http://bio2rdf.org/sider_vocabulary:side-effect",
+    "http://orpailleur.fr/medispan/side_effect",
+    "http://pgxo.loria.fr/",
+    "http://purl.uniprot.org/core/organism",
+    "http://rdfs.org/ns/void#inDataset",
+    "http://www.w3.org/ns/prov#",
+    "http://xmlns.com/foaf/0.1/homepage",
+    "http://www.w3.org/2000/01/rdf-schema#",
+    "http://rdfs.org/ns/void#subset",
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#",
+    "http://www.w3.org/2002/07/owl#",
+    "http://www.geneontology.org/formats/oboInOwl#inSubset",
+    "http://bio2rdf.org/drugbank_vocabulary:source",
+    "http://bio2rdf.org/ctd_vocabulary:disease"
+  ],
+  "types_blacklist": [
+    "http://www.w3.org/2002/07/owl#",
+    "http://www.w3.org/ns/prov#"
+  ],
+  "types_expansion_blacklist": [
+    "http://purl.bioontology.org/ontology/MESH/D056486",
+    "http://purl.bioontology.org/ontology/MESH/D056487"
+  ]
+}
