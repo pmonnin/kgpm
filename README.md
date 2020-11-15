@@ -1,6 +1,30 @@
 # kgpm
 
-Mining neighbors, paths, and path patterns from a Knowledge Graph and a set of seed nodes
+Mining neighbors, paths, and path patterns from a knowledge graph and a set of seed nodes
+
+A detailed description of the motivation and the algorithms of kgpm is available in [the related article](https://arxiv.org/pdf/2007.08821.pdf).
+
+## Citing kgpm
+
+When citing kgpm, please use the following reference:
+
+Pierre Monnin, Emmanuel Bresso, Miguel Couceiro, Malika Smaïl-Tabbone, Amedeo Napoli,
+and Adrien Coulet. "Tackling scalability issues in mining path patterns from knowledge
+graphs: a preliminary study". In: 1st international conference ”Algebras, graphs and ordered sets” (ALGOS 2020). Ed. by Miguel Couceiro, Pierre Monnin, and Amedeo Napoli.
+Nancy, France, Aug. 2020. url: https://arxiv.org/pdf/2007.08821.pdf.
+
+```
+@inproceedings{Monnin2020kgpm,
+	author = {Monnin, Pierre and Bresso, Emmanuel and Couceiro, Miguel and Sma{\"i}l-Tabbone, Malika and Napoli, Amedeo and Coulet, Adrien},
+	title = {{Tackling scalability issues in mining path patterns from knowledge graphs: a preliminary study}},
+	editor    = {Miguel Couceiro and Pierre Monnin and Amedeo Napoli},
+	booktitle = {{1st international conference ``Algebras, graphs and ordered sets'' (ALGOS 2020)}},
+	address = {Nancy, France},
+	year = {2020},
+	month = Aug,
+	url = {https://arxiv.org/pdf/2007.08821.pdf},
+}
+```
 
 ## ``query_graph.py``
 
