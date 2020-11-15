@@ -10,7 +10,7 @@ When citing kgpm, please use the following reference:
 
 Pierre Monnin, Emmanuel Bresso, Miguel Couceiro, Malika Smaïl-Tabbone, Amedeo Napoli,
 and Adrien Coulet. "Tackling scalability issues in mining path patterns from knowledge
-graphs: a preliminary study". In: 1st international conference ”Algebras, graphs and ordered sets” (ALGOS 2020). Ed. by Miguel Couceiro, Pierre Monnin, and Amedeo Napoli.
+graphs: a preliminary study". In: 1st international conference "Algebras, graphs and ordered sets" (ALGOS 2020). Ed. by Miguel Couceiro, Pierre Monnin, and Amedeo Napoli.
 Nancy, France, Aug. 2020. url: https://arxiv.org/pdf/2007.08821.pdf.
 
 ```
